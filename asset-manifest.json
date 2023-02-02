@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/analystt.ai-assignment/static/css/main.645e6dee.css",
+    "main.js": "/analystt.ai-assignment/static/js/main.f26af1f1.js",
+    "static/js/787.249c7193.chunk.js": "/analystt.ai-assignment/static/js/787.249c7193.chunk.js",
+    "index.html": "/analystt.ai-assignment/index.html",
+    "main.645e6dee.css.map": "/analystt.ai-assignment/static/css/main.645e6dee.css.map",
+    "main.f26af1f1.js.map": "/analystt.ai-assignment/static/js/main.f26af1f1.js.map",
+    "787.249c7193.chunk.js.map": "/analystt.ai-assignment/static/js/787.249c7193.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.645e6dee.css",
+    "static/js/main.f26af1f1.js"
+  ]
+}
