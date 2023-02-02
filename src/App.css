@@ -1,0 +1,99 @@
+body{
+  background-color: rgb(238, 249, 249);
+}
+
+.cardPage{
+  margin:80px auto;
+  min-height: 62vh;
+}
+
+.card-accordion {
+  background-color: white;
+  width: 80vw;
+  height: auto;
+  overflow: hidden;
+  margin: 50px auto;
+  padding: 30px 40px 20px;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-accordion__button {
+  background-color: rgb(249, 1, 1);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 110px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.card-accordion__content {
+  font-size: 0.9rem;
+  margin: 20px 10px;
+  background-color: #ffffff;
+  padding: 40px 60px 5px ;
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -20px, rgba(0, 0, 0, 0.3) 1px 2px 0px -10px, rgba(10, 37, 64, 0.35) 0px -1px 5px 0px inset;
+}
+
+.cardFront{
+  display: flex;
+  color:black;
+  justify-content: space-between;
+}
+.frontDetail{
+  width:20vw;
+}
+
+.cardDetail{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.cardLeft{
+  width:30vw;
+}
+.cardRight{
+  width:55vw
+}
+.backDetail p{
+  margin: 5px 0px 20px;
+}
+
+
+.paginationBttns {
+  font-weight: 700;
+  font-size: large;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a{
+  padding:0.5rem 1rem;
+  margin:0.1rem;
+  border-radius: 2px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(217, 217, 217);
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #ff0000;
+}
+
+.paginationDisabled a {
+  color: rgb(149, 148, 148);
+}
+
+
+
